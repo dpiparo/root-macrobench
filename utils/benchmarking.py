@@ -27,7 +27,7 @@ def getPlatform():
 def dumpResults(name, filename, runtime):
     with open(filename, 'w') as resfile:
         resfile.write("name = %s\n" %name)
-        resfile.write("runtime = %2.f\n" %runtime)
+        resfile.write("runtime = %.2f\n" %runtime)
         resfile.write("platform = %s\n" %getPlatform())
 
 
