@@ -1,0 +1,2 @@
+TFile::Open("root://eospublic.cern.ch//eos/root-eos/cms_opendata_2012_nanoaod/SMHiggsToZZTo4L.root")
+.q
